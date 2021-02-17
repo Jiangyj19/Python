@@ -47,7 +47,6 @@ while flag:
         flag = 0
 print('---after jumpping---')
 print('current url:'+driver.current_url)
-health = driver.find_element_by_xpath('//*[@title="学生健康及出行情况报告"]')
 health.click()
 print('--commit page---')
 print('current url:'+driver.current_url)
