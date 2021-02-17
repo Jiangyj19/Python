@@ -21,7 +21,7 @@ user_name = args.user_name
 password = args.password
 
 chrome_options = Options()
-# chrome_options.add_argument("--headless")
+chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(
     executable_path=executable_path, chrome_options=chrome_options)
 driver.maximize_window()
